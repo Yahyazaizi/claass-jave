@@ -1,18 +1,18 @@
-package animals;
+package sport;
 
-class clsAnimal
+class clsSPORT
   {
     String name;
-    String FootNumber;
+    String playernumber;
 
-    public clsAnimal(String name, String FootNumber)
+    public cls(String name, String playernumber)
     {
         this.name = name;
-        this.FootNumber = FootNumber;
+        this.playernumber = playernumber;
     }
-    public void showAnimal()
+    public void sportinfo()
     {
-        System.out.println("the animal " + this.name + " has : " + this.FootNumber + " Foot." );
+        System.out.println( self.name,self.playernumber );
     }
 
   }
