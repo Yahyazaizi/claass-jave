@@ -1,4 +1,4 @@
-package company;
+
 class clsEmployer
 {
     public String FullName;
